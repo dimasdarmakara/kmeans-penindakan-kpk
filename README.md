@@ -13,8 +13,8 @@ Repositori ini berisi seluruh langkah analisis: data perkara per tahun, pembentu
 | File / folder | Isi |
 |---|---|
 | `kmeans_penindakan_kpk.ipynb` | Notebook Python berisi seluruh analisis |
-| `data/penindakan_kpk_2019_2025.csv` | Jumlah perkara tahap penyidikan per tahun (2019–2025) menurut wilayah, instansi, dan jenis perkara |
-| `hasil/` | Gambar hasil analisis |
+| `penindakan_kpk_2019_2025.csv` | Jumlah perkara tahap penyidikan per tahun (2019–2025) menurut wilayah, instansi, dan jenis perkara |
+| `01_…png` – `04_…png` | Gambar hasil analisis |
 | `requirements.txt` | Daftar pustaka Python yang dipakai |
 
 ## Sumber data
@@ -49,7 +49,7 @@ jupyter notebook kmeans_penindakan_kpk.ipynb
 | Instansi | 6 | 3 | 0,388 | Pemkab/Pemkot · Kementerian/Lembaga + BUMN/BUMD · Pemprov + DPR RI + Komisi |
 | Jenis perkara | 7 | 3 | 0,144 | Gratifikasi/Penyuapan · Pengadaan Barang/Jasa · lima jenis lainnya |
 
-![Hasil klaster](hasil/03_hasil_klaster.png)
+![Hasil klaster](03_hasil_klaster.png)
 
 Hasil ini menggambarkan **pola penindakan KPK**, bukan tingkat korupsi sebenarnya di suatu daerah, karena data hanya mencakup perkara yang ditangani KPK.
 
